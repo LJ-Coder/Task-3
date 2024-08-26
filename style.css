@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Annie Use Your Telescope');
+
+
+body {
+    background-color: rgb(255, 229, 242);
+}
+h1 {
+    color:rgb(255, 0, 191);
+    font-size: 50px;
+}
+
+#paragraph {
+    text-decoration: underline;
+}
+.intro {
+    color: rgb(0, 0, 0);
+    font-family: Annie Use Your Telescope ;
+    font-weight: semi-bold;
+}
+
+.webdev-image {
+    display:block;
+    margin: 20px auto 20px auto;
+    max-width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .webdev-image {
+    max-width: 100%;
+    margin: 10px auto;
+    }
+}
+
+.example {
+    background-color: #ffcff5;
+    border: 1px solid #ff00bf;
+    padding: 100px;
+    margin: 50px;
+}
+
+.codecontinue-image {
+    border: 5px solid grey;
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+}
+
+.codecontinue-image:hover{
+    border: 5px dashed #ff00bf;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.text-shadow{
+    text-shadow: 1px 1px 4px grey ;
+    
+}
+
+.text-center{
+    text-align:center;
+}
+
+.bg-image{
+    background-image: url(images/futuristic.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px;
+}
+
+.bg-image h2{
+    color: white;
+    font-size: 60px;
+    font-family: Annie Use Your Telescope ;
+    text-transform: uppercase;
+}
+
+.parallax {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50vh;
+    background-image: url(images/waves.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin: -10px
+}
+
+.parallax-content {
+    text-align: center; 
+    color: white;
+    padding: 50px;
+    font-size: 40px;
+}
+.gradient-bg{
+    background-image: linear-gradient(to right, #ffc0cb, #ff00bf);
+    padding: 100px;
+    font-size: 30px;
+}
